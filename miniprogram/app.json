@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/mine/mine",
+    "pages/tabbar/tools/tools"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "JForum",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tools/tools",
+        "text": "工具"
+      },
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
